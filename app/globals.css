@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Prompt font globally using the CSS variable from next/font */
+body {
+    font-family: var(--font-prompt), sans-serif;
+}
